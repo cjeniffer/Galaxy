@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701907200&semt=ais);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97svh;
+}
+
+.flex {
+   display: flex;
+   padding: 2rem;
+   justify-content: end; 
+   gap: 1rem;
+}
+
+.trans{
+    background-color: transparent;
+    color: white;
+    border-radius: 2rem;
+    border-color: white;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 60px;
+    place-content: center center;
+    margin-top: 3rem;
+}
+
+.grid div {
+    display: grid;
+    border: 3px solid;
+    height: 20px;
+    border-radius: 1rem;
+    border-color: white;
+    place-content: center center;
+    margin-top: 0.1rem;
+    width: 120px; 
+}
+.galaxy{
+    color: dodgerblue;
+    display: grid;
+    padding: 1rem;
+    place-items: center center;
+}
